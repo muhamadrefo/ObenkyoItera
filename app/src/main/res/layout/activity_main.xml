@@ -5,7 +5,6 @@
     android:id="@+id/main_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/logo"
     tools:context=".MainActivity">
 
     <com.shobhitpuri.custombuttons.GoogleSignInButton
@@ -59,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
-        android:text="Translator"
+        android:text="Translate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login"
         tools:ignore="MissingConstraints" />
@@ -75,16 +74,25 @@
         app:layout_constraintTop_toBottomOf="@+id/login"
         tools:ignore="MissingConstraints" />
 
+
     <Button
         android:id="@+id/nu"
-        android:layout_width="105dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="4dp"
+        android:layout_width="103dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="96dp"
         android:layout_marginEnd="152dp"
         android:text="Numbers"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kt"
+        app:layout_constraintTop_toBottomOf="@+id/login"
         tools:ignore="MissingConstraints" />
 
+    <Button
+        android:id="@+id/hg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiragana"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="419dp"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>

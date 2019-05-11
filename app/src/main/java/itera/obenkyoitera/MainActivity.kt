@@ -73,6 +73,10 @@ class MainActivity : AppCompatActivity(), ServiceListener {
             startActivity(Intent(this, KatakanaActivity::class.java))
         }
 
+        hg.setOnClickListener {
+            startActivity(Intent(this, HiraganaActivity::class.java))
+        }
+
         nu.setOnClickListener {
             startActivity(Intent(this, NumberActivity::class.java))
         }
