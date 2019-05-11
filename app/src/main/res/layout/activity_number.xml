@@ -50,7 +50,6 @@
                 android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
                 android:orientation="vertical"
                 android:paddingLeft="24dp"
                 android:paddingTop="30dp"
@@ -58,7 +57,7 @@
                 android:paddingBottom="30dp"
                 app:layout_constraintTop_toBottomOf="@+id/view"
                 tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="24dp">
+                tools:layout_editor_absoluteX="56dp">
 
                 <View
                     android:layout_width="match_parent"
@@ -88,7 +87,7 @@
                             android:layout_marginTop="4dp"
                             android:text="0"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -104,7 +103,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="零"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -122,7 +121,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Zero"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -139,7 +138,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Nol"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -165,7 +164,7 @@
                             android:layout_marginTop="4dp"
                             android:text="1"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -181,7 +180,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="一"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -199,7 +198,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Ichi"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -216,7 +215,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Satu"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -242,7 +241,7 @@
                             android:layout_marginTop="4dp"
                             android:text="2"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -258,7 +257,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="二"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -276,7 +275,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Ni"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -293,7 +292,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Dua"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -319,7 +318,7 @@
                             android:layout_marginTop="4dp"
                             android:text="3"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -335,7 +334,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="三"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -353,7 +352,7 @@
                             android:layout_marginTop="4dp"
                             android:text="San"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -370,7 +369,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Tiga"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -396,7 +395,7 @@
                             android:layout_marginTop="4dp"
                             android:text="4"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -412,7 +411,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="四"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -430,7 +429,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Yon/Shi"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -447,7 +446,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Empat"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -473,7 +472,7 @@
                             android:layout_marginTop="4dp"
                             android:text="5"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -489,7 +488,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="五"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -507,7 +506,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Go"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -524,7 +523,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Lima"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -550,7 +549,7 @@
                             android:layout_marginTop="4dp"
                             android:text="6"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -566,7 +565,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="六"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -584,7 +583,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Roku"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -601,7 +600,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Enam"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -627,7 +626,7 @@
                             android:layout_marginTop="4dp"
                             android:text="7"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -643,7 +642,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="七"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -661,7 +660,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Nana"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -678,7 +677,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Tujuh"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -704,7 +703,7 @@
                             android:layout_marginTop="4dp"
                             android:text="8"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -720,7 +719,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="八"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -738,7 +737,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Hachi"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -755,7 +754,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Delapan"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -781,7 +780,7 @@
                             android:layout_marginTop="4dp"
                             android:text="9"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -797,7 +796,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="九"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -815,7 +814,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Kyu/Ku"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -832,7 +831,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Sembilan"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -858,7 +857,7 @@
                             android:layout_marginTop="4dp"
                             android:text="10"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -874,7 +873,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="十"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -892,7 +891,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Juu"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -909,7 +908,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Sepuluh"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -935,7 +934,7 @@
                             android:layout_marginTop="4dp"
                             android:text="11"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -951,7 +950,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="十一"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -969,7 +968,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Juu Ichi"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -986,7 +985,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Sebelas"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1012,7 +1011,7 @@
                             android:layout_marginTop="4dp"
                             android:text="12"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1028,7 +1027,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="十二"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1046,7 +1045,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Juu Ni"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1063,7 +1062,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Dua Belas"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1089,7 +1088,7 @@
                             android:layout_marginTop="4dp"
                             android:text="20"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1105,7 +1104,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="二十"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1123,7 +1122,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Ni Juu"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1140,7 +1139,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Duapuluh"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1166,7 +1165,7 @@
                             android:layout_marginTop="4dp"
                             android:text="21"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1182,7 +1181,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="二十一"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1200,7 +1199,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Ni Juu Ichi"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1217,7 +1216,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Duapuluh Satu"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1243,7 +1242,7 @@
                             android:layout_marginTop="4dp"
                             android:text="100"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1259,7 +1258,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="百"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1277,7 +1276,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Hyaku"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1294,7 +1293,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Seratus"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1320,7 +1319,7 @@
                             android:layout_marginTop="4dp"
                             android:text="123"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1336,7 +1335,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="百二十三"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1354,7 +1353,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Hyaku Ni Juu San"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1371,7 +1370,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Dua ratus dua puluh tiga"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1397,7 +1396,7 @@
                             android:layout_marginTop="4dp"
                             android:text="613"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1413,7 +1412,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="六百二十三"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1431,7 +1430,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Roppyaku Juu San"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1448,7 +1447,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Enam Ratus Tiga Belas"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1474,7 +1473,7 @@
                             android:layout_marginTop="4dp"
                             android:text="803"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1490,7 +1489,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="八百三"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1508,7 +1507,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Happyaku san"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1525,7 +1524,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Delapan Ratus Tiga"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1551,7 +1550,7 @@
                             android:layout_marginTop="4dp"
                             android:text="813"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1567,7 +1566,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="八百十三"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1585,7 +1584,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Happyaku Juu San"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1602,7 +1601,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Delapan Ratus Tiga Belas"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1628,7 +1627,7 @@
                             android:layout_marginTop="4dp"
                             android:text="1000"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1644,7 +1643,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="千"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1662,7 +1661,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Sen"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1679,7 +1678,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Seribu"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -1705,7 +1704,7 @@
                             android:layout_marginTop="4dp"
                             android:text="10000"
                             android:textColor="#000"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1721,7 +1720,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
                             android:text="一万"
-                            android:textSize="36sp"/>
+                            android:textSize="36sp" />
 
                     </LinearLayout>
 
@@ -1739,7 +1738,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Ichiman"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -1756,7 +1755,7 @@
                             android:layout_marginTop="4dp"
                             android:text="Sepuluh Ribu"
                             android:textColor="#000"
-                            android:textSize="24sp"/>
+                            android:textSize="24sp" />
                     </LinearLayout>
 
                 </LinearLayout>
