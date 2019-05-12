@@ -77,10 +77,8 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
         }
     }
 
-    /**
-     * Continues the sign-in process, initializing the Drive clients with the current
-     * user's account.
-     */
+
+    //Melanjutkan proses login, inisiasi Google Drive dengan akun pengguna sekarang
     private fun initializeDriveClient(signInAccount: GoogleSignInAccount) {
         driveClient = Drive.getDriveClient(activity.applicationContext, signInAccount)
         driveResourceClient = Drive.getDriveResourceClient(activity.applicationContext, signInAccount)
@@ -128,11 +126,8 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
             serviceListener?.handleError(e)
         }
     }
-    /**
-     * Prompts the user to select a text file using OpenFileActivity.
-     *
-     * @return Task that resolves with the selected item's ID.
-     */
+
+     //Menyuruh pengguna untuk memilih file dengan OpenFileActivity.
     fun pickFiles(driveId: DriveId?) {
         val builder = OpenFileActivityOptions.Builder()
         if (config.mimeTypes != null) {
@@ -150,12 +145,8 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
         pickItem(openOptions)
     }
 
-    /**
-     * Prompts the user to select a folder using OpenFileActivity.
-     *
-     * @param openOptions Filter that should be applied to the selection
-     * @return Task that resolves with the selected item's ID.
-     */
+
+    //Menyuruh pengguna untuk memilih folder dengan OpenFileActivity.
     private fun pickItem(openOptions: OpenFileActivityOptions) {
         val openTask = driveClient?.newOpenFileActivityIntentSender(openOptions)
         openTask?.let {
@@ -166,9 +157,7 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
         }
     }
 
-    /**
-     * Initialize signInAccount if user has signed in and no new scope
-     */
+    //Inisialisasi Login akun jika sudah login
     fun checkLoginStatus() {
         val requiredScopes = HashSet<Scope>(2)
         requiredScopes.add(Drive.SCOPE_FILE)
@@ -180,9 +169,7 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
         }
     }
 
-    /**
-     * Starts the sign-in process.
-     */
+    //Mulai Proses Login
     fun auth() {
         activity.startActivityForResult(googleSignInClient.signInIntent, REQUEST_CODE_SIGN_IN)
     }
