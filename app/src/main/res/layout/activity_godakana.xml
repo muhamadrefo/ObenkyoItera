@@ -60,7 +60,6 @@
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="24dp">
 
-
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -88,10 +87,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ガ"
                             android:gravity="center"
+                            android:text="ガ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -116,10 +115,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ギ"
                             android:gravity="center"
+                            android:text="ギ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -144,10 +143,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="グ"
                             android:gravity="center"
+                            android:text="グ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -172,10 +171,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ゲ"
                             android:gravity="center"
+                            android:text="ゲ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -200,10 +199,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ゴ"
                             android:gravity="center"
+                            android:text="ゴ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -236,10 +235,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ザ"
                             android:gravity="center"
+                            android:text="ザ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -264,10 +263,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ジ"
                             android:gravity="center"
+                            android:text="ジ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -292,10 +291,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ズ"
                             android:gravity="center"
+                            android:text="ズ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -320,10 +319,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ぜ"
                             android:gravity="center"
+                            android:text="ぜ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -385,10 +384,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ダ"
                             android:gravity="center"
+                            android:text="ダ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -413,10 +412,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ヂ"
                             android:gravity="center"
+                            android:text="ヂ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -441,10 +440,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ヅ"
                             android:gravity="center"
+                            android:text="ヅ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -469,10 +468,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="デ"
                             android:gravity="center"
+                            android:text="デ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -497,10 +496,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ド"
                             android:gravity="center"
+                            android:text="ド"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -535,10 +534,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="バ"
                             android:gravity="center"
+                            android:text="バ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -563,10 +562,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ビ"
                             android:gravity="center"
+                            android:text="ビ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -591,10 +590,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ブ"
                             android:gravity="center"
+                            android:text="ブ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -619,10 +618,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="べ"
                             android:gravity="center"
+                            android:text="べ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -647,10 +646,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ボ"
                             android:gravity="center"
+                            android:text="ボ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -684,10 +683,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="パ"
                             android:gravity="center"
+                            android:text="パ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -712,10 +711,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ピ"
                             android:gravity="center"
+                            android:text="ピ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -740,10 +739,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="プ"
                             android:gravity="center"
+                            android:text="プ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -768,10 +767,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ぺ"
                             android:gravity="center"
+                            android:text="ぺ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -796,10 +795,10 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ポ"
                             android:gravity="center"
+                            android:text="ポ"
                             android:textColor="#000"
-                            android:textSize="50sp"/>
+                            android:textSize="50sp" />
 
                         <TextView
                             android:layout_width="wrap_content"

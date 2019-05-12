@@ -22,7 +22,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
             <View
                 android:id="@+id/view"
                 android:layout_width="match_parent"
@@ -44,7 +43,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/view" />
 
-
             <LinearLayout
                 android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
@@ -59,6 +57,24 @@
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="24dp">
 
+
+                <Button
+                    android:id="@+id/dahana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gojuon with (Han) Dakuten" />
+
+                <Button
+                    android:id="@+id/yoonhana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yoon" />
+
+                <Button
+                    android:id="@+id/yohana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yoon with (Han) Dakuten" />
 
                 <View
                     android:layout_width="match_parent"
