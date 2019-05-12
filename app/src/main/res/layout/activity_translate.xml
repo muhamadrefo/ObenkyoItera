@@ -1,8 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center"
+    android:padding="10dp"
     tools:context=".TranslateActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,33 +20,41 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp">
 
             <TextView
                 android:id="@+id/lang_1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Lang"/>
+                android:text="Lang"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
             <ImageButton
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:src="@drawable/ic_transfer100"
-                android:onClick="tukar"/>
+                android:onClick="tukar"
+                android:src="@drawable/ic_swap_horiz_black_24dp" />
+
             <TextView
                 android:id="@+id/lang_2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Lang"/>
+                android:text="Lang"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
 
         </LinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:layout_margin="3dp"
+            android:layout_margin="2dp"
             android:background="@color/divider" />
 
         <LinearLayout
@@ -55,32 +68,53 @@
                 android:layout_weight="1"
                 android:orientation="vertical">
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:gravity="center"
+                    android:lineSpacingMultiplier="1.2"
+                    android:text="Input"
+                    android:textSize="14sp" />
+
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/data"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_width="365dp"
+                        android:layout_height="175dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginEnd="8dp"
+                        android:ems="10"
                         android:hint="@string/input"
-                        android:lineSpacingMultiplier="1.2"
+                        android:inputType="textMultiLine"
                         android:maxLength="500"
-                        android:minLines="2"
+                        android:minLines="1"
                         tools:text="en" />
 
                 </android.support.design.widget.TextInputLayout>
 
             </LinearLayout>
 
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
             <Button
                 android:id="@+id/btn_go"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
+                android:gravity="center"
                 android:onClick="doTranslation"
                 android:text="@string/terjemah" />
-
         </LinearLayout>
 
         <TextView
@@ -105,13 +139,15 @@
 
                 <TextView
                     android:id="@+id/result"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="175dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
                     android:layout_weight="1"
+                    android:ems="10"
                     android:fontFamily="monospace"
-                    android:lineSpacingMultiplier="1.2"
-                    android:minLines="2"
-                    tools:text="Result Data" />
+                    android:minLines="2" />
 
             </LinearLayout>
 
@@ -122,6 +158,6 @@
             android:layout_height="1dp"
             android:layout_margin="3dp"
             android:background="@color/divider" />
-
     </LinearLayout>
+
 </ScrollView>
