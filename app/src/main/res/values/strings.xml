@@ -21,4 +21,7 @@
     <string name="katakana">Katakana</string>
     <string name="hiragana">Hiragana</string>
     <string name="number">Numbers</string>
+    <string name="godakana">Gojuon with (han) Dakuten</string>
+    <string name="gokana">Gojuon</string>
+    <string name="gohana">Gojuon</string>
 </resources>

@@ -36,7 +36,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="24dp"
                 android:layout_marginEnd="8dp"
-                android:text="@string/katakana"
+                android:text="@string/gokana"
                 android:textAlignment="center"
                 android:textColor="#000"
                 android:textSize="24sp"
@@ -1454,7 +1454,7 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ヰ"
+                            android:text=""
                             android:gravity="center"
                             android:textColor="#000"
                             android:textSize="50sp"/>
@@ -1463,7 +1463,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="Wi"
+                            android:text=""
                             android:textColor="#000"
                             android:textSize="16sp" />
 
@@ -1507,7 +1507,7 @@
                         <TextView
                             android:layout_width="64dp"
                             android:layout_height="64dp"
-                            android:text="ヱ"
+                            android:text=""
                             android:gravity="center"
                             android:textColor="#000"
                             android:textSize="50sp"/>
@@ -1516,7 +1516,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="4dp"
-                            android:text="We"
+                            android:text=""
                             android:textColor="#000"
                             android:textSize="16sp" />
 
