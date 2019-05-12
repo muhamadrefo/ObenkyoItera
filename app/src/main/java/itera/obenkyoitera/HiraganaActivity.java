@@ -24,4 +24,7 @@ public class HiraganaActivity extends AppCompatActivity {
     public void yohana(View view) {
         startActivity(new Intent(getApplicationContext(), yodahana.class));
     }
+    public void home(View view) {
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+    }
 }

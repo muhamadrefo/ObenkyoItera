@@ -61,6 +61,30 @@
                 tools:layout_editor_absoluteX="24dp">
 
 
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:onClick="home"/>
+                <Button
+                    android:id="@+id/yohana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yoon with (Han) Dakuten"
+                    android:onClick="yohana"/>
+                <Button
+                    android:id="@+id/yoonhana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yoon"
+                    android:onClick="yoonha"/>
+                <Button
+                    android:id="@+id/goha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gojoun"
+                    android:onClick="goha"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"

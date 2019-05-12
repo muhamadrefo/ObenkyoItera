@@ -59,6 +59,12 @@
 
 
                 <Button
+                    android:id="@+id/home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:onClick="home"/>
+                <Button
                     android:id="@+id/dahana"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

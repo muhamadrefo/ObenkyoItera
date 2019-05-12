@@ -24,4 +24,7 @@ public class KatakanaActivity extends AppCompatActivity {
     public void yokana(View view) {
         startActivity(new Intent(getApplicationContext(), yodakana.class));
     }
+    public void home(View view) {
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+    }
 }

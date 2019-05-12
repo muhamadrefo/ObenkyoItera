@@ -22,5 +22,8 @@ class yokana : AppCompatActivity() {
     fun goka(view: View) {
         startActivity(Intent(applicationContext, KatakanaActivity::class.java)) // gojoun
     }
+    fun home(view: View) {
+        startActivity(Intent(applicationContext, MainActivity::class.java)) // gojoun
+    }
 
 }

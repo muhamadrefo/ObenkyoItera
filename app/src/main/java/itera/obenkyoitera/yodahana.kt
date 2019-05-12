@@ -22,5 +22,8 @@ class yodahana : AppCompatActivity() {
     fun goten(view: View) {
         startActivity(Intent(applicationContext, godahana::class.java)) // godakuten
     }
+    fun home(view: View) {
+        startActivity(Intent(applicationContext, MainActivity::class.java)) // gojoun
+    }
 
 }

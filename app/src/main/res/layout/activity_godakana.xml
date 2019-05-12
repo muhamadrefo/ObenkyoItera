@@ -60,6 +60,30 @@
                 tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteX="24dp">
 
+                <Button
+                    android:id="@+id/home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:onClick="home"/>
+                <Button
+                    android:id="@+id/yokana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yoon with (Han) Dakuten"
+                    android:onClick="yokana"/>
+                <Button
+                    android:id="@+id/yoonkana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yoon"
+                    android:onClick="yoonka"/>
+                <Button
+                    android:id="@+id/goka"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gojoun"
+                    android:onClick="goka"/>
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"

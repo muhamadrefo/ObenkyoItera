@@ -23,5 +23,8 @@ class godahana : AppCompatActivity() {
     fun goha(view: View) {
         startActivity(Intent(applicationContext, HiraganaActivity::class.java)) // gojoun
     }
+    fun home(view: View) {
+        startActivity(Intent(applicationContext, MainActivity::class.java)) // gojoun
+    }
 
 }
