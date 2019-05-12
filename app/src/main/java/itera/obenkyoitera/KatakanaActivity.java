@@ -16,4 +16,12 @@ public class KatakanaActivity extends AppCompatActivity {
     public void gohan(View view) {
         startActivity(new Intent(getApplicationContext(), godakana.class));
     }
+
+    public void yoonka(View view) {
+        startActivity(new Intent(getApplicationContext(), yokana.class));
+    }
+
+    public void yokana(View view) {
+        startActivity(new Intent(getApplicationContext(), yodakana.class));
+    }
 }

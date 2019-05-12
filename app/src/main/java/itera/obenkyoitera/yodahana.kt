@@ -5,23 +5,22 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class godahana : AppCompatActivity() {
+class yodahana : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_godahana)
+        setContentView(R.layout.activity_yodahana)
     }
-
-    fun yohana(view: View) {
-        startActivity(Intent(applicationContext, yodahana::class.java)) //yoondakuten
+    fun goha(view: View) {
+        startActivity(Intent(applicationContext, HiraganaActivity::class.java)) //gojoun
     }
 
     fun yoonha(view: View) {
         startActivity(Intent(applicationContext, yohana::class.java)) // yoon
     }
 
-    fun goha(view: View) {
-        startActivity(Intent(applicationContext, HiraganaActivity::class.java)) // gojoun
+    fun goten(view: View) {
+        startActivity(Intent(applicationContext, godahana::class.java)) // godakuten
     }
 
 }

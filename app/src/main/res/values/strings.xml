@@ -25,4 +25,6 @@
     <string name="gokana">Gojuon</string>
     <string name="gohana">Gojuon</string>
     <string name="godahana">Gojuon with (han)Dakuten</string>
+    <string name="yohana">Yoon</string>
+    <string name="yokana">Yoon</string>
 </resources>

@@ -5,14 +5,14 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class godakana : AppCompatActivity() {
+class yodakana : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_godakana)
+        setContentView(R.layout.activity_yodakana)
     }
-    fun yokana(view: View) {
-        startActivity(Intent(applicationContext, yodakana::class.java)) //yoondakuten
+    fun gohan(view: View) {
+        startActivity(Intent(applicationContext, godakana::class.java)) //gojoundakuten
     }
 
     fun yoonka(view: View) {

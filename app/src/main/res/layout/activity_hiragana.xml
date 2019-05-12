@@ -69,13 +69,15 @@
                     android:id="@+id/yoonhana"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Yoon" />
+                    android:text="Yoon"
+                    android:onClick="yoonha"/>
 
                 <Button
                     android:id="@+id/yohana"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Yoon with (Han) Dakuten" />
+                    android:text="Yoon with (Han) Dakuten"
+                    android:onClick="yohana"/>
 
                 <View
                     android:layout_width="match_parent"
