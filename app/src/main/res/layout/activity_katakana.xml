@@ -64,7 +64,8 @@
                     android:id="@+id/dakana"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gojuon with (Han) Dakuten" />
+                    android:text="Gojuon with (Han) Dakuten"
+                    android:onClick="gohan"/>
 
                 <Button
                     android:id="@+id/yoonkana"
