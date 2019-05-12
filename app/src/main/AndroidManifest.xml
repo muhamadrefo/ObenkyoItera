@@ -13,7 +13,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".godakana"></activity>
+        <activity android:name=".godahana"></activity>
+        <activity android:name=".godakana" />
         <activity android:name=".HiraganaActivity" />
         <activity android:name=".NumberActivity" />
         <activity android:name=".KatakanaActivity" />
