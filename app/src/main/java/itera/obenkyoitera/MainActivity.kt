@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity(), ServiceListener {
     private var state = ButtonState.LOGGED_OUT
 
 
+    //state tombol
     private fun setButtons() {
         when (state) {
             ButtonState.LOGGED_OUT -> {
@@ -65,18 +66,22 @@ class MainActivity : AppCompatActivity(), ServiceListener {
             setButtons()
         }
 
+        //Mulai activity Translate
         tr.setOnClickListener {
             startActivity(Intent(this, TranslateActivity::class.java))
         }
 
+        //Mulai activity Katakana
         kt.setOnClickListener {
             startActivity(Intent(this, KatakanaActivity::class.java))
         }
 
+        //Mulai activity Hiragana
         hg.setOnClickListener {
             startActivity(Intent(this, HiraganaActivity::class.java))
         }
 
+        //Mulai activity Number
         nu.setOnClickListener {
             startActivity(Intent(this, NumberActivity::class.java))
         }
@@ -112,6 +117,7 @@ class MainActivity : AppCompatActivity(), ServiceListener {
         }
     }
 
+    //Di cancel user
     override fun cancelled() {
         Snackbar.make(main_layout, R.string.status_user_cancelled, Snackbar.LENGTH_LONG).show()
         //Toast.makeText(this, R.string.status_user_cancelled, Toast.LENGTH_LONG).show()

@@ -21,9 +21,13 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
     companion object {
         private val SCOPES = setOf<Scope>(Drive.SCOPE_FILE, Drive.SCOPE_APPFOLDER)
         val documentMimeTypes = arrayListOf(
-                "application/pdf",
-                "application/msword",
-                "application/vnd.openxmlformats-officedocument.wordprocessingml.document")
+                "application/pdf",                                                             //pdf
+                "application/msword",                                                          //doc
+                "application/vnd.ms-powerpoint",                                               //ppt
+                "application/vnd.openxmlformats-officedocument.presentationml.presentation",   //pptx
+                "application/vnd.openxmlformats-officedocument.wordprocessingml.document")     //docx
+
+        //ekstensi file nya pake MIME (Multipurpose Internet Mail Extension)
 
         const val REQUEST_CODE_OPEN_ITEM = 100
         const val REQUEST_CODE_SIGN_IN = 101
@@ -65,9 +69,8 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
         }
     }
 
-    /**
-     * Handle the activity result when signing in
-     */
+
+    //Activity result setelah login
     private fun handleSignIn(data: Intent) {
         val getAccountTask = GoogleSignIn.getSignedInAccountFromIntent(data)
         if (getAccountTask.isSuccessful) {
@@ -174,6 +177,7 @@ class GoogleDriveService(private val activity: Activity, private val config: Goo
         activity.startActivityForResult(googleSignInClient.signInIntent, REQUEST_CODE_SIGN_IN)
     }
 
+    //Mulai Proses Logout
     fun logout() {
         googleSignInClient.signOut()
         signInAccount = null
