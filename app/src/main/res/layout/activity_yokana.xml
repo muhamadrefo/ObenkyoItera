@@ -73,17 +73,17 @@
                     android:text="Yoon with (Han) Dakuten"
                     android:onClick="yokana"/>
                 <Button
-                    android:id="@+id/dakana"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Gojoun with (Han) Dakuten"
-                    android:onClick="gohan"/>
-                <Button
                     android:id="@+id/goka"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Gojoun"
                     android:onClick="goka"/>
+                <Button
+                    android:id="@+id/dakana"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gojoun with (Han) Dakuten"
+                    android:onClick="gohan"/>
 
                 <View
                     android:layout_width="match_parent"

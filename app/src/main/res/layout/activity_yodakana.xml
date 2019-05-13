@@ -67,11 +67,11 @@
                     android:text="Home"
                     android:onClick="home"/>
                 <Button
-                    android:id="@+id/yoonkana"
+                    android:id="@+id/goka"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Yoon"
-                    android:onClick="yoonka"/>
+                    android:text="Gojoun"
+                    android:onClick="goka"/>
                 <Button
                     android:id="@+id/dakana"
                     android:layout_width="match_parent"
@@ -79,11 +79,12 @@
                     android:text="Gojoun with (Han) Dakuten"
                     android:onClick="gohan"/>
                 <Button
-                    android:id="@+id/goka"
+                    android:id="@+id/yoonkana"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Gojoun"
-                    android:onClick="goka"/>
+                    android:text="Yoon"
+                    android:onClick="yoonka"/>
+
 
 
                 <View
