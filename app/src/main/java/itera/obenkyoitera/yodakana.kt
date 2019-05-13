@@ -23,7 +23,8 @@ class yodakana : AppCompatActivity() {
         startActivity(Intent(applicationContext, KatakanaActivity::class.java)) // gojoun
     }
     fun home(view: View) {
-        startActivity(Intent(applicationContext, MainActivity::class.java)) // gojoun
+        //startActivity(Intent(applicationContext, MainActivity::class.java)) // gojoun
+        finish()
     }
 
 }

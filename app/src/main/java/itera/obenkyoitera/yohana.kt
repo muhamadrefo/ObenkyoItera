@@ -25,6 +25,7 @@ class yohana : AppCompatActivity() {
     }
     fun home(view: View) {
         startActivity(Intent(applicationContext, MainActivity::class.java)) // gojoun
+        finish()
     }
 
 }
